@@ -1,0 +1,59 @@
+body{
+    background-color:  #100b2d;
+    color: #fff;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+        
+}
+
+
+.book-entry{
+    background-color: #180d3c;
+    border: 1px dotted #c3c1c1;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.form{
+    background-color: #180d3c;
+    border: 1px dotted #c3c1c1;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 60px;
+    gap: 20px;
+    width: 200px;
+    border-radius: 10px;
+    max-height: 300px;
+}
+
+.editbuttons{
+    display: flex;
+    justify-content: end;
+    gap: 5px;
+}
+
+.deleteButton{
+    padding: 8px 8px;
+    width: auto;
+}
+
+.statusBtn{
+    padding: 8px 8px;
+    width: auto;
+}
+
+
+input{
+    padding: 8px 4px;
+}
+
+button{
+    height: auto;
+    padding: 5px 0px;
+    border: 1px solid #b9b9b9;
+    border-radius: 10px;
+}
